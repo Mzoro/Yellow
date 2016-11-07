@@ -1,0 +1,32 @@
+.yllw-pricing-hero-unit-side {
+  background-image: url('../images/pricing_side.jpg');
+}
+
+.yllw-pricing-hero-unit-side__heading--white {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  color: white;
+}
+
+.yllw-pricing-hero-unit-side__text--white {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--xx-large;
+  color: white;
+}
+
+.yllw-pricing-hero-unit-side__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--small;
+  width: 100%;
+  background-color:  orange;
+  border-color:  orange;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color:  orange;
+  }
+  border-radius: 20pt;
+  width: 100%;
+}

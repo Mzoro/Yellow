@@ -1,0 +1,36 @@
+
+.yllw-my-fundraising-stats {
+  background-color: $white-milk;
+  border: 1px solid #e3e3e3;
+  @extend .slds-p-around--small;
+}
+
+.yllw-my-fundraising-stats__count {
+  @extend .slds-text-heading--medium;
+  font-weight: bold;
+}
+
+.yllw-my-fundraising-stats__container {
+
+}
+
+.yllw-my-fundraising-stats__icon {
+  @extend .slds-icon--small;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-my-fundraising-stats__link {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-top--medium;
+  @extend .slds-text-align--right;
+  display: block;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.yllw-my-fundraising-stats__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--medium;
+  font-weight: bold;
+  color: $blue;
+}

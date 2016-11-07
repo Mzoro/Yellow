@@ -1,0 +1,31 @@
+
+.yllw-express-hero-unit {
+  background-image: url('../images/background-callout.jpg');
+}
+
+.yllw-express-hero-unit__logo-image {
+  width: 30%;
+}
+
+.yllw-express-hero-unit__heading--white {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  color: white;
+}
+
+.yllw-express-hero-unit__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--small;
+  width: 100%;
+  background-color:  orange;
+  border-color:  orange;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color:  orange;
+  }
+  border-radius: 20pt;
+  width: 100%;
+}

@@ -1,0 +1,47 @@
+
+.yllw-contribution-lock-up-form {
+  background-color: $grey-dark;
+}
+
+.yllw-contribution-lock-up-form__button {
+  @extend .slds-button;
+  @extend .slds-m-vertical--large;
+  @extend .slds-button--brand;
+  @extend .slds-float--right;
+  width: 75%;
+}
+
+.yllw-contribution-lock-up-form__heading {
+  @extend .slds-text-align--center;
+  @extend .slds-m-top--large;
+  color: #9d261d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.yllw-contribution-lock-up-form__text {
+  @extend .slds-m-vertical--large;
+  @extend .slds-text-align--center;
+  border-bottom: 1px #8495a7 solid;
+}
+
+.yllw-contribution-lock-up-form__text-requisites {
+  @extend .slds-float--right;
+  @extend .slds-m-around--x-small;
+}
+
+.yllw-contribution-lock-up-form__input {
+  @extend .slds-input;
+  @extend .slds-text-align--center;
+}
+
+.yllw-contribution-lock-up-form__label {
+  @extend .slds-text-align--center;
+  @extend .slds-p-top--xx-small;
+  @extend .slds-form-element__label;
+}
+
+.yllw-contribution-lock-up-form__image {
+  @extend .slds-p-left--x-small;
+  @extend .slds-p-top--small;
+}

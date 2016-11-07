@@ -1,0 +1,19 @@
+.yllw-express-hero-unit-three-columns {
+
+}
+
+.yllw-express-hero-unit-three-columns__text--uppercased-centered {
+  @extend .slds-text-body--regular;
+  text-transform: uppercase;
+  @extend .slds-text-align--center;
+}
+
+.yllw-express-hero-unit-three-columns__heading--large-centered {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-express-hero-unit-three-columns__text--centered {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center
+}

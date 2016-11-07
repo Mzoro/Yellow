@@ -1,0 +1,19 @@
+
+.yllw-candidate-profile-info {
+  background-color: $blue-light;
+}
+
+.yllw-candidate-profile-info__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-p-top--small;
+  @extend .slds-m-bottom--large;
+  @extend .slds-m-left--medium;
+  font-weight: bold;
+  color: white;
+}
+
+.yllw-candidate-profile-info__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-p-bottom--large;
+  @extend .slds-m-left--medium;
+}

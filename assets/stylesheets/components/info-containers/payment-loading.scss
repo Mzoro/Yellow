@@ -1,0 +1,14 @@
+
+.yllw-payment-loading {
+  @extend .slds-m-top--large;
+  width: 100%;
+}
+
+.yllw-payment-loading__text {
+  @extend .slds-text-heading--large;
+  text-transform: uppercase;
+}
+
+.yllw-payment-loading__spiner {
+  @extend .slds-spinner--large;
+}

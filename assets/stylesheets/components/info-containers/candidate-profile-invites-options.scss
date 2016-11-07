@@ -1,0 +1,40 @@
+
+.yllw-candidate-profile-invites-options {
+  background-color: $blue-ultra-light;
+}
+
+.yllw-candidate-profile-invites-options__image {
+  @extend .slds-m-around--medium;
+}
+
+.yllw-candidate-profile-invites-options__text {
+  @extend .slds-m-left--medium;
+  @extend .slds-m-bottom--small;
+  font-size: 16px;
+}
+
+.yllw-candidate-profile-invites-options__text--bold {
+  @extend .slds-m-left--medium;
+  @extend .slds-m-bottom--small;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.yllw-candidate-profile-invites-options__button--orange {
+  @extend .slds-m-left--medium;
+  @extend .slds-button;
+  @extend .slds-m-right--small;
+  @extend .slds-m-bottom--medium;
+  @extend .slds-button--brand;
+  padding: 0.2em 0.8em;
+  border-color: #f8a021;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #f8a021;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #f89406;
+  }
+}

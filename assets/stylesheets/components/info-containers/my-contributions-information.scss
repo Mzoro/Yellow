@@ -1,0 +1,41 @@
+.yllw-my-contributions-information {
+
+}
+
+.yllw-my-contributions-information__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-left--x-large;
+  @extend .slds-m-vertical--xx-small;
+  background-color: orange;
+  border-color:  orange;
+  border-radius: 20pt;
+  width: 75%;
+}
+
+.yllw-my-contributions-information__count {
+  @extend .slds-text-heading--medium;
+  font-weight: bold;
+}
+
+.yllw-my-contributions-information__icon {
+  @extend .slds-icon--small;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-my-contributions-information__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+  font-weight: bold;
+}
+
+.yllw-my-contributions-information__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-my-contributions-information__text--bold {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--medium;
+  font-weight: bold;
+}

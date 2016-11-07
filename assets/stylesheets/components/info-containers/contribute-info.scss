@@ -1,0 +1,59 @@
+
+.yllw-contribute-info {
+  @extend .slds-m-top--large;
+  background-color: $white-milk;
+}
+
+.yllw-contribute-info__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-float--right;
+  @extend .slds-m-top--small;
+}
+
+.yllw-contribute-info__link {
+  @extend .slds-m-top--small;
+  color: $blue;
+  font-weight: bold;
+}
+
+.yllw-contribute-info__image {
+  @extend .slds-m-top--small;
+}
+
+.yllw-contribute-info__button-green {
+  @extend .slds-button;
+  @extend .slds-float--right;
+  @extend .slds-m-right--small;
+  @extend .slds-button--brand;
+  width: 20%;
+  padding: 0.2em 0.8em;
+  border-color: #5cb85c;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #5cb85c;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #51a351;
+  }
+}
+
+.yllw-contribute-info__button-orange {
+  @extend .slds-button;
+  @extend .slds-float--right;
+  @extend .slds-m-right--small;
+  @extend .slds-button--brand;
+  font-size: 11.06px;
+  padding: 0.2em 0.8em;
+  border-color: #f8a021;
+  line-height: 21px;
+  border-radius: 20pt;
+  background-color: #f8a021;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #f89406;
+  }
+}

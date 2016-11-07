@@ -1,0 +1,32 @@
+.yllw-pricing-three-columns-info {
+  @extend .slds-m-vertical--large;
+}
+
+.yllw-pricing-three-columns-info__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-pricing-three-columns-info__container {
+  border-radius: 5%;
+  background-color: $grey;
+  width: 100%
+}
+
+.yllw-pricing-three-columns-info__image {
+  @extend .slds-p-around--medium;
+  width: 100%
+}
+
+.yllw-pricing-three-columns-info__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: $grey-mid;
+}
+
+.yllw-pricing-three-columns-info__text--bold-uppercase {
+  @extend .slds-m-vertical--x-small;
+  @extend .slds-text-align--center;
+  font-weight: bold;
+  text-transform: uppercase;
+}

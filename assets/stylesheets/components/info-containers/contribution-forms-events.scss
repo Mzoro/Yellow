@@ -1,0 +1,243 @@
+.yllw-contribution-form-essentials {
+
+}
+
+.yllw-contribution-form-essentials__steps-number--active {
+  @extend .slds-p-around--x-small;
+  background-color:#FF8000;
+  color: white;
+}
+
+.yllw-contribution-form-essentials__steps-number--passive {
+  @extend .slds-p-around--x-small;
+  background-color:#FACD86;
+  color: white;
+}
+
+.yllw-contribution-form-essentials__steps-name--active {
+  @extend .slds-m-left--x-small;
+  @extend .slds-m-right--x-small;
+}
+
+.yllw-contribution-form-essentials__steps-name--passive {
+  @extend .slds-m-left--x-small;
+  @extend .slds-m-right--x-small;
+  color: #D8D8D8;
+}
+
+.yllw-contribution-form-essentials__steps-legend {
+  @extend .slds-p-around--medium;
+  @extend .slds-m-top--medium;
+  @extend .slds-m-bottom--medium;
+  background-color: #F2F2F2;
+}
+
+.yllw-contribution-form-essentials__steps-icon {
+  @extend .slds-m-right--xx-small;
+  @extend .slds-m-bottom--x-small;
+  @extend .slds-icon__container;
+  @extend .slds-icon;
+  @extend .slds-icon--x-small;
+  @extend .slds-icon-text-default;
+  fill: #5882FA;
+}
+
+.yllw-contribution-form-essentials__heading {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-bottom--medium;
+  color: $blue;
+  font-weight: bold;
+}
+
+.yllw-contribution-form-essentials__textedit-toolbar {
+  @extend .slds-icon__container;
+  @extend .slds-icon;
+  @extend .slds-icon--x-small;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-contribution-form-essentials__input {
+  @extend .slds-input;
+  @extend .slds-m-bottom--medium;
+  border-radius: 0;
+  width: 300px;
+}
+
+.yllw-contribution-form-essentials__element-control {
+  @extend .slds-form-element__control;
+}
+
+.yllw-contribution-form-essentials__input-transparent {
+  border-radius: 0;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-bottom: 1px solid #000000;
+  width: 120px;
+  outline: 0 !important;
+}
+
+.yllw-contribution-form-essentials__radio {
+  @extend .slds-m-top--medium;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-contribution-form-essentials__input--small {
+  @extend .slds-input;
+  @extend .slds-m-bottom--medium;
+  border-radius: 0;
+  width: 60px;
+}
+
+.yllw-contribution-form-essentials__input--medium {
+  @extend .slds-input;
+  border-radius: 0;
+  width: 150px;
+}
+
+.yllw-contribution-form-essentials__input--large {
+  @extend .slds-input;
+  border-radius: 0;
+  width: 180px;
+}
+
+.yllw-contribution-form-essentials__input-table--small {
+  @extend .slds-input;
+  @extend .slds-m-left--xx-small;
+  border-radius: 0;
+  width: 60px;
+}
+
+.yllw-contribution-form-essentials__input-table--medium {
+  @extend .slds-input;
+  @extend .slds-m-right--xx-large;
+  border-radius: 0;
+  width: 150px;
+}
+
+.yllw-contribution-form-essentials__textarea {
+  @extend .slds-textarea;
+  @extend .slds-m-top--xx-small;
+  border-radius: 0;
+  height: 110px;
+}
+
+.yllw-contribution-form-essentials__textarea--intended {
+  @extend .slds-textarea;
+  @extend .slds-m-top--xx-small;
+  border-radius: 0;
+  height: 110px;
+  width: 80%;
+}
+
+.yllw-contribution-form-essentials__text {
+  @extend .slds-m-top--x-small;
+  @extend .slds-m-right--x-small;
+  @extend .slds-float--right;
+  @extend .slds-text-align--right;
+  font-size: 100%;
+}
+
+.yllw-contribution-form-essentials__info {
+  @extend .slds-m-left--xx-small;
+}
+
+.yllw-contribution-form-essentials__info--framed {
+  @extend .slds-text-heading--small;
+  @extend .slds-p-around--xx-small;
+  background-color:#F2F2F2;
+}
+
+.yllw-contribution-form-essentials__icon-calendar {
+  @extend .slds-icon--small;
+  @extend .slds-icon-text-default;
+  fill: #FE2E64;
+}
+
+.yllw-contribution-form-essentials__icon-move {
+  @extend .slds-m-right--xx-small;
+  @extend .slds-m-bottom--xx-small;
+  @extend .slds-icon__container;
+  @extend .slds-icon;
+  @extend .slds-icon--x-small;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-contribution-form-essentials__text--red {
+  color: red;
+  font-size: 100%;
+}
+
+.yllw-contribution-form-essentials__label {
+  @extend .slds-form-element__label;
+  @extend .slds-m-bottom--small;
+}
+
+.yllw-contribution-form-essentials__label--intended {
+  @extend .slds-form-element__label;
+  @extend .slds-m-bottom--large;
+  width: 60%;
+}
+
+.yllw-contribution-form-essentials__checkbox {
+  @extend .slds-m-top--small;
+}
+
+.yllw-contribution-form-essentials__checkbox-table {
+}
+
+.yllw-contribution-form-essentials__button-submit--green {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  padding: 0.2em 0.8em;
+  border-color: #5cb85c;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #5cb85c;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #51a351;
+  }
+}
+
+.yllw-contribution-form-essentials__button-submit--blue {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  padding: 0.2em 0.8em;
+  border-color: #0B0B61;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #0B0B61;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #51a351;
+  }
+}
+
+.yllw-contribution-form-essentials__link {
+  @extend .slds-float--right;
+}
+
+.yllw-contribution-form-essentials__table {
+  @extend .slds-table;
+  @extend .slds-table--striped;
+  @extend .slds-no-row-hover;
+  @extend .slds-m-top--x-large;
+}
+
+.yllw-contribution-form-essentials__table-head {
+  background: #A9E2F3;
+}
+
+.yllw-contribution-form-essentials__table-row {
+  border: 1px solid #01A9DB;
+}
+
+.yllw-contribution-form-essentials__text-helper {
+  @extend .slds-m-bottom--large;
+  font-size: 80%;
+}

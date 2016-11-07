@@ -1,0 +1,76 @@
+
+
+.yllw-donation-form {
+ @extend .slds-card;
+ @extend .slds-m-left--small;
+ @extend .slds-m-top--medium;
+}
+
+.yllw-donation-form__heading {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-left--large;
+  @extend .slds-m-bottom--medium;
+  @extend .slds-m-top--large;
+  color: $blue;
+}
+
+.yllw-donation-form__button {
+  @extend .slds-button--brand;
+  @extend .slds-m-bottom--xx-large;
+  background-color: #5cb85c;
+  border-radius: 20pt;
+  width: 20%;
+  padding: 0.2em 0.8em;
+  border-color: #5cb85c;
+  line-height: 25px;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #51a351;
+  }
+}
+
+.yllw-donation-form__button-count {
+  @extend .slds-button;
+  @extend .slds-button--neutral;
+  @extend .slds-m-left--small;
+  @extend .slds-size--1-of-5;
+}
+
+.yllw-donation-form__input {
+  @extend .slds-input;
+  @extend .slds-m-left--large;
+  @extend .slds-m-vertical--medium;
+  @extend .slds-size--1-of-5;
+}
+
+.yllw-donation-form__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-left--large;
+}
+
+.yllw-donation-form__text-info {
+  @extend .slds-m-top--x-small;
+  @extend .slds-m-left--medium;
+}
+
+.yllw-donation-form__text-label {
+  @extend .slds-float--right;
+  @extend .slds-m-top--x-small;
+  font-weight: bold;
+}
+
+.yllw-donation-form__checkbox {
+  @extend .slds-m-left--large;
+  @extend .slds-m-top--medium;
+}
+
+.yllw-donation-form__lable-checkbox {
+  @extend .slds-form-element__label;
+}
+
+.yllw-donation-form__select {
+  @extend .slds-select;
+  @extend .slds-m-left--medium;
+}

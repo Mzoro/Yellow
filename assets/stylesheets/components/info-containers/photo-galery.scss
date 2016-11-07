@@ -1,0 +1,31 @@
+
+.yllw-photo-galery {
+
+}
+
+.yllw-photo-galery__heading--small {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--small;
+  @extend .slds-m-bottom--small;
+  font-weight: bold;
+}
+
+.yllw-photo-galery__photo {
+  width: 250px;
+  height: 400px;
+}
+
+.yllw-photo-galery__picture {
+  width: 100%;
+}
+
+.yllw-photo-galery__text--blue {
+  @extend .slds-text-align--center;
+  @extend .slds-text-body--regular;
+  color: blue;;
+  font-weight: bold;
+}
+
+.yllw-photo-galery__text--upcase {
+  @extend .slds-text-heading--label;
+}

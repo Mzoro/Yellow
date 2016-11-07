@@ -1,0 +1,15 @@
+
+.yllw-member-info {
+  @extend .slds-p-around--medium;
+}
+
+.yllw-member-info__heading {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-bottom--small;
+  color: $blue;
+}
+
+.yllw-member-info__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+}

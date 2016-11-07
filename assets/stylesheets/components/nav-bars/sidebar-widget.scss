@@ -1,0 +1,39 @@
+
+.yllw-search-sidebar {
+
+}
+
+.yllw-search-sidebar__search-button {
+  @extend .slds-button;
+  @extend .slds-button--neutral;
+}
+
+.yllw-search-sidebar__search-input {
+  @extend .slds-input;
+}
+
+.yllw-search-sidebar__lable {
+  @extend .slds-form-element__label;
+  @extend .slds-text-heading--medium;
+}
+
+.yllw-search-sidebar__form-element {
+  @extend .slds-form-element;
+}
+
+.yllw-search-sidebar__dropdown-control {
+  @extend .slds-form-element__control;
+}
+
+.yllw-search-sidebar__dropdown-container {
+  @extend .slds-select_container;
+}
+
+.yllw-search-sidebar__dropdown-list {
+  @extend .slds-select;
+}
+
+.yllw-search-sidebar__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-top--large;
+}

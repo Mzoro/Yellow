@@ -1,0 +1,18 @@
+
+.yllw-contribution-table {
+
+}
+
+.yllw-contribution-table__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+}
+
+.yllw-contribution-table__text--bold {
+  font-weight: bold;
+}
+
+
+.yllw-contribution-table__text--blue{
+  color: $blue;
+}

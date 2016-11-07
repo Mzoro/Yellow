@@ -1,0 +1,39 @@
+
+.yllw-directory-body {
+  background-color: $white-milk;
+}
+
+.yllw-directory-body__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-left--x-small;
+  @extend .slds-m-top--xx-small;
+
+}
+
+.yllw-directory-body__text--bolt {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-top--small;
+  @extend .slds-m-left--x-small;
+  font-weight: bold;
+}
+
+.yllw-directory-body__link {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-left--medium;
+  color: $blue;
+}
+
+.yllw-directory-body__ol {
+  list-style:none;
+}
+
+.yllw-directory-body__list {
+  @extend .slds-text-body--regular;
+  float: left;
+}
+
+.yllw-directory-body__select {
+  @extend .slds-select;
+  @extend .slds-m-left--medium;
+  @extend .slds-m-bottom--medium;
+}

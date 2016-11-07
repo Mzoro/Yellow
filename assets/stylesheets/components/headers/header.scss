@@ -1,0 +1,44 @@
+
+.yllw-header {
+  @extend .slds-m-around--medium;
+  @extend .slds-text-align--center;
+}
+
+.yllw-header__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-top--small;
+}
+
+.yllw-header__logo {
+  @extend .slds-badge;
+  @extend .slds-text-heading--large;
+  @extend .slds-m-bottom--large;
+  display: block;
+}
+
+.yllw-header__search-pane {
+  @extend .slds-form-element__control;
+  @extend .slds-input-has-icon;
+  @extend .slds-input-has-icon--right;
+  @extend .slds-m-top--small;
+  display: block;
+}
+
+.yllw-header__search-icon {
+  @extend .slds-input__icon;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-header__search-input {
+  @extend .slds-input;
+}
+
+.yllw-header__link {
+  display: block;
+}
+
+.yllw-header__links-bar {
+  @extend .slds-m-top--medium;
+  display: block;
+}

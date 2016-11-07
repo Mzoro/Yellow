@@ -1,0 +1,35 @@
+.yllw-jobs-article-available-positions {
+  width: 100%;
+}
+
+.yllw-jobs-article-available-positions__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-jobs-article-available-positions__heading--medium {
+  @extend .slds-text-heading--medium;
+}
+
+.yllw-jobs-article-available-positions__list {
+
+}
+
+.yllw-jobs-article-available-positions__list--dotted {
+  @extend .slds-list--dotted;
+}
+
+.yllw-jobs-article-available-positions__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--x-small;
+}
+
+.yllw-jobs-article-available-positions__text--bold-uppercase {
+  @extend .slds-m-vertical--x-small;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yllw-jobs-article-available-positions__vacancy {
+  @extend .slds-m-bottom--large;
+}

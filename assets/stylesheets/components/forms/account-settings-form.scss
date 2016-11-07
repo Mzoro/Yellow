@@ -1,0 +1,57 @@
+
+.yllw-account-settings-form {
+
+}
+
+.yllw-account-settings-form__button {
+  @extend .slds-button;
+  @extend .slds-m-right--small;
+  @extend .slds-button--brand;
+  @extend .slds-m-top--medium;
+  width: 23%;
+  padding: 0.3em 0.8em;
+  border-color: #0d1121;;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #0d1121;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #1d1111;
+  }
+}
+
+.yllw-account-settings-form__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+  font-weight: bold;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-account-settings-form__input {
+  @extend .slds-input;
+  @extend .slds-m-bottom--xx-small;
+}
+
+.yllw-account-settings-form__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--medium;
+  color: $blue;
+}
+
+.yllw-account-settings-form__help-description {
+  @extend .slds-form-element__label;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-account-settings-form__label {
+  @extend .slds-m-right--small;
+  @extend .slds-float--right;
+  @extend .slds-m-top--x-small;
+}
+
+.yllw-account-settings-form__select {
+  @extend .slds-select;
+  @extend .slds-m-bottom--xx-small;
+}

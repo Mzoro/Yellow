@@ -1,0 +1,50 @@
+
+.yllw-member-donation-form {
+  @extend .slds-p-around--small;
+  box-shadow: inset 0px 0px 10px -5px #ccc;
+  background: rgba(200, 200, 200, 0.1);
+}
+
+.yllw-member-donation-form__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-bottom--x-small;
+  width: 90%;
+}
+
+.yllw-member-donation-form__donate-button {
+  @extend .slds-button;
+  @extend .slds-button--neutral;
+}
+
+.yllw-member-donation-form__heading {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-vertical--small;
+  color: $blue;
+}
+
+.yllw-member-donation-form__input-inside {
+  @extend .slds-input;
+  width: 75%;
+}
+
+.yllw-member-donation-form__input-inside--small {
+  @extend .slds-input;
+  width: 20%;
+}
+
+.yllw-member-donation-form__text {
+  @extend .slds-text-body--small;
+  @extend .slds-m-vertical--xxx-small;
+}
+
+.yllw-member-donation-form__text--bold {
+  @extend .slds-text-body--small;
+  @extend .slds-m-vertical--small;
+  font-weight: bold;
+}
+
+.yllw-member-donation-form__select {
+  @extend .slds-select;
+  width: 90%;
+}

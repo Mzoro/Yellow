@@ -1,0 +1,33 @@
+
+.yllw-footer{
+  @extend .slds-m-top--x-large;
+}
+
+.yllw-footer__logo {
+  @extend .slds-badge;
+  @extend .slds-text-heading--large;
+  @extend .slds-float--left;
+}
+
+.yllw-footer__icons-social {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-footer__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--medium;
+}
+
+.yllw-footer__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-footer__bordered-text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--small;
+  border: solid;
+  border-width: thin;
+  border-color: grey;
+}

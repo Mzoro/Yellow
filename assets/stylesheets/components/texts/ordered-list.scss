@@ -1,0 +1,17 @@
+
+.yllw-ordered-list{
+  width: 100%;
+}
+
+.yllw-ordered-list__item {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-ordered-list__items {
+  @extend .slds-list--ordered;
+  @extend .slds-m-bottom--xx-large;
+}
+
+.yllw-ordered-list__heading {
+  @extend .slds-text-heading--small;
+}

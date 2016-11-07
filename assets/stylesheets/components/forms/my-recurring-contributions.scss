@@ -1,0 +1,16 @@
+
+.yllw-my-recurring-contributions {
+  @extend .slds-p-vertical--large;
+}
+
+.yllw-my-recurring-contributions__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-bottom--small;
+  font-weight: bold;
+  color: $blue;
+}
+
+.yllw-my-recurring-contributions__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--small;
+}

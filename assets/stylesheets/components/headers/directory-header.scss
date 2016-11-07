@@ -1,0 +1,27 @@
+
+.yllw-directory-header {
+
+}
+
+.yllw-directory-header__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+}
+
+.yllw-directory-header__input {
+  @extend .slds-input;
+  @extend .slds-size--3-of-12;
+  @extend .slds-m-top--small;
+}
+
+.yllw-directory-header__search-icon {
+  @extend .slds-icon--small;
+  @extend .slds-input__icon;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-directory-header__label {
+  @extend .slds-form-element__label;
+  @extend .slds-m-bottom--medium;
+  @extend .slds-m-top--xx-small;
+}

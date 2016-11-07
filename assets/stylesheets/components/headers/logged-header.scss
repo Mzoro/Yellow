@@ -1,0 +1,17 @@
+.yllw-logged-header {
+  background-color: $green-light;
+}
+
+.yllw-logged-header__greeting {
+  @extend .slds-text-heading--small;
+  color:$grey-mid;
+  &:hover {
+    text-decoration: none;
+    color:#1c2345;
+  }
+}
+
+.yllw-logged-header__select {
+  @extend .slds-size--5-of-6;
+  background-color: $green-light;
+}

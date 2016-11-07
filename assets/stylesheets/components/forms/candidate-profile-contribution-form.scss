@@ -1,0 +1,39 @@
+
+.yllw-candidate-profile-contribution-form {
+  background-color: $blue-dark;
+}
+
+.yllw-candidate-profile-contribution-form__text {
+  @extend .slds-text-align--right;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 180%;
+}
+
+.yllw-candidate-profile-contribution-form__input {
+  @extend .slds-m-left--xx-small;
+  width: 95%;
+  height: 35px;
+  display: block;
+}
+
+.yllw-candidate-profile-contribution-form__button--green {
+  @extend .slds-button;
+  @extend .slds-m-left--xx-small;
+  @extend .slds-m-right--small;
+  @extend .slds-m-top--small;
+  @extend .slds-m-bottom--small;
+  @extend .slds-button--brand;
+  padding: 0.2em 0.8em;
+  border-color: #5cb85c;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #5cb85c;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #51a351;
+  }
+}

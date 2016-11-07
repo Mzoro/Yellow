@@ -1,0 +1,33 @@
+.yllw-icons-with-description{
+
+}
+
+.yllw-icons-with-description__container{
+  @extend .slds-m-bottom--xx-large;
+  @extend .slds-m-top--large;
+  background-color: $grey;
+}
+
+.yllw-icons-with-description__image{
+  width: 50%;
+  fill: $blue-ultra-dark;
+}
+
+.yllw-icons-with-description__text{
+  @extend .slds-text-body--regular;
+}
+
+.yllw-icons-with-description__text-mobile{
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+}
+
+.yllw-icons-with-description__heading{
+  @extend .slds-m-top--large;
+  @extend .slds-text-heading--large;
+}
+
+.yllw-icons-with-description__heading-mobile{
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}

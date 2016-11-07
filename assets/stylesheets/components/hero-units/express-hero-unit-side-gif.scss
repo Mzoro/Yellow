@@ -1,0 +1,22 @@
+
+.yllw-express-hero-unit-side-gif {
+
+}
+
+.yllw-express-hero-unit-side-gif__text--uppercased {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  text-transform: uppercase;
+}
+
+.yllw-express-hero-unit-side-gif__heading--large {
+  @extend .slds-text-heading--large;
+}
+
+.yllw-express-hero-unit-side-gif__heading--small {
+  @extend .slds-text-heading--small;
+}
+
+.yllw-express-hero-unit-side-gif__logo-image {
+  width: 22%;
+}

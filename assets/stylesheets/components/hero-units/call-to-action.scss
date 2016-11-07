@@ -1,0 +1,47 @@
+
+.yllw-call-to-action {
+  padding: 85px 0px 85px;
+  background-color: $blue;
+}
+
+.yllw-call-to-action--grey {
+  background-color: $grey;
+}
+
+.yllw-call-to-action--white {
+  background-color: none;
+}
+
+.yllw-call-to-action__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--medium;
+  background-color: $orange;
+  border-color: $orange;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: $orange-dark;
+  }
+  border-radius: 20pt;
+  width: 80%;
+}
+
+.yllw-call-to-action__text {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+  color: white;
+}
+
+.yllw-call-to-action__text--black {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+  color: #000000;
+}
+
+.yllw-call-to-action__text--medium {
+  @extend .slds-text-heading--medium;
+  @extend .slds-text-align--center;
+  color: white;
+}

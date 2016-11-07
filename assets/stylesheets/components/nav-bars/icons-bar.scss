@@ -1,0 +1,12 @@
+.yllw-icons-bar {
+
+}
+
+.yllw-icons-bar__icon-container {
+  @extend .slds-icon__container;
+}
+
+.yllw-icons-bar__icon {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+}

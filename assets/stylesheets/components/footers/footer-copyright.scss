@@ -1,0 +1,11 @@
+
+.yllw-footer-copyright {
+  @extend .slds-p-around--large;
+  @extend .slds-m-top--x-large;
+  background-color: $grey;
+  text-transform: uppercase;
+}
+
+.yllw-footer-copyright__text {
+  @extend .slds-text-body--regular;
+}

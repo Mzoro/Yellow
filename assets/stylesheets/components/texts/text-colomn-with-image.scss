@@ -1,0 +1,22 @@
+
+.yllw-text-colomn-with-image {
+
+}
+
+.yllw-text-colomn-with-image__heading {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-top--x-large;
+  @extend .slds-m-bottom--medium;
+  color: $blue;
+}
+
+.yllw-text-colomn-with-image__text {
+  @extend .slds-text-heading--small;
+  @extend .slds-text-body--small;
+  @extend .slds-m-right--medium;
+  font-weight: normal;
+}
+
+.yllw-text-colomn-with-image__picture {
+
+}

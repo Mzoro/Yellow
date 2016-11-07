@@ -1,0 +1,79 @@
+
+.yllw-donor-profile-form {
+
+}
+
+.yllw-donor-profile-form__button-big {
+  @extend .slds-button;
+  @extend .slds-m-right--small;
+  @extend .slds-button--brand;
+  width: 20%;
+  padding: 0.2em 0.8em;
+  border-color: #0d1121;;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #0d1121;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #1d1111;
+  }
+}
+
+.yllw-donor-profile-form__button-little {
+  @extend .slds-button;
+  @extend .slds-m-right--small;
+  @extend .slds-button--brand;
+  @extend .slds-m-bottom--large;
+  font-size: 11.06px;
+  padding: 0.2em 0.8em;
+  border-color: #0d1121;
+  line-height: 21px;
+  border-radius: 20pt;
+  background-color: #0d1121;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #0d1121;
+  }
+}
+
+.yllw-donor-profile-form__checkbox {
+  @extend .slds-form-element__label;
+  @extend .slds-m-vertical--medium;
+}
+
+.yllw-donor-profile-form__checkbox-radio {
+  @extend .slds-form-element__label;
+  @extend .slds-m-bottom--large;
+}
+
+.yllw-donor-profile-form__input {
+  @extend .slds-input;
+  @extend .slds-m-bottom--large;
+}
+
+.yllw-donor-profile-form__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+}
+
+.yllw-donor-profile-form__text {
+  @extend .slds-m-bottom--large;
+}
+
+.yllw-donor-profile-form__text--bold {
+  @extend .slds-m-vertical--medium;
+  font-weight: bold;
+}
+
+.yllw-donor-profile-form__text-name {
+  @extend .slds-m-top--x-small;
+}
+
+.yllw-donor-profile-form__select {
+  @extend .slds-select;
+  @extend .slds-m-bottom--large;
+}

@@ -1,0 +1,50 @@
+.yllw-best-of-week {
+  @extend .slds-m-vertical--small;
+  background-color: $white-milk;  
+  border: thin solid #e3e3e3;
+}
+
+.yllw-best-of-week__button {
+  @extend .slds-button;
+  @extend .slds-button--neutral;
+  @extend .slds-m-horizontal--small;
+  color: white;
+  background-color: green;
+  border-color:  green;
+  border-radius: 20pt;
+  font-size: 10px;
+  width: 75%;
+}
+
+.yllw-best-of-week__heading {
+  @extend .slds-text-heading--medium;
+  color: $blue;
+  font-weight: bold;
+}
+
+.yllw-best-of-week__image {
+  @extend .slds-m-around--medium;
+
+}
+
+.yllw-best-of-week__input {
+  @extend .slds-input;
+  @extend .slds-m-around--small;
+  width: 60%;
+}
+
+.yllw-best-of-week__link {
+  @extend .slds-m-top--large;
+  @extend .slds-text-heading--small;
+  font-weight: bold;
+}
+
+.yllw-best-of-week__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-best-of-week__text--bold {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-top--xx-small;
+  font-weight: bold;
+}

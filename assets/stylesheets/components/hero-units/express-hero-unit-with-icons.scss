@@ -1,0 +1,18 @@
+
+.yllw-express-hero-unit-with-icons {
+  background:  $grey;
+}
+
+.yllw-express-hero-unit-icons {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-express-hero-unit-with-icons__heading--large {
+  @extend .slds-text-heading--large;
+}
+
+.yllw-express-hero-unit__text--grey {
+  @extend .slds-m-top--medium;
+  @extend .slds-text-body--regular;
+}

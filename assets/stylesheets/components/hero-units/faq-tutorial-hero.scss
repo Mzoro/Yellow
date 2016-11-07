@@ -1,0 +1,34 @@
+.yllw-faq-tutorial-hero--green {
+  background: $green-mid;
+}
+
+.yllw-faq-tutorial-hero--blue {
+  background: $blue-midnight;
+}
+
+.yllw-faq-tutorial-hero__heading {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  @extend .slds-m-bottom--x-large;
+  color: white;
+  display: block;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+  }
+}
+
+.yllw-faq-tutorial-hero__text {
+  @extend .slds-text-align--center;
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--xx-large;
+  color: white;
+  display: block;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+  }
+}

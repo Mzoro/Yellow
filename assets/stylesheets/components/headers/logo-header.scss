@@ -1,0 +1,9 @@
+
+.yllw-logo-header {
+  @extend .slds-m-top--medium;
+}
+
+.yllw-logo-header__logotype {
+  @extend .slds-badge;
+  @extend .slds-text-heading--large;
+}

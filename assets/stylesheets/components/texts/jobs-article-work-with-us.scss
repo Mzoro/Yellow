@@ -1,0 +1,30 @@
+.yllw-jobs-article-work-with-us {
+  width: 100%;
+}
+
+.yllw-jobs-article-work-with-us__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-jobs-article-work-with-us__heading--medium {
+  @extend .slds-text-heading--medium;
+  @extend .slds-text-align--center;
+}
+
+.yllw-jobs-article-work-with-us__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--x-small;
+}
+
+.yllw-jobs-article-work-with-us__text--bold-uppercase {
+  @extend .slds-m-vertical--x-small;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yllw-jobs-article-work-with-us__text--grey {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--x-small;
+  color: $grey-mid;
+}

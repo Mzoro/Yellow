@@ -1,0 +1,19 @@
+
+.yllw-express-hero-unit-top-image {
+  background-color: $blue;
+}
+
+.yllw-express-hero-unit-top-image__heading--white {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  color: white;
+}
+
+.yllw-express-hero-unit-top-image__heading--white-small {
+  color: white;
+  @extend .slds-text-heading--small;
+}
+
+.yllw-express-hero-unit-top-image__picture {
+  width: 30%;
+}

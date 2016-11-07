@@ -1,0 +1,11 @@
+
+.yllw-white-tagline-on-blue-screen {
+  background-color: $blue;
+}
+
+.yllw-white-tagline-on-blue-screen__tagline {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-vertical--large;
+  color: white;
+  text-transform: uppercase;
+}

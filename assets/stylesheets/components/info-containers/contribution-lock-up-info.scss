@@ -1,0 +1,24 @@
+
+.yllw-contribution-lock-up-info {
+  @extend .slds-text-align--center;
+  @extend .slds-m-top--medium;
+}
+
+.yllw-contribution-lock-up-info__icon {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+  @extend .slds-icon--large;
+}
+
+.yllw-contribution-lock-up-info__heading--large {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--large;
+  @extend .slds-m-bottom--medium;
+  color: $blue;
+}
+
+.yllw-contribution-lock-up-info__heading--small {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--small;
+  @extend .slds-m-bottom--medium;
+}

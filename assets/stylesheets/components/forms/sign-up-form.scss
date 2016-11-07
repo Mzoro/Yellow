@@ -1,0 +1,98 @@
+
+.yllw-sign-up-form {
+
+}
+
+.yllw-sign-up-form__heading--large {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-left--xx-large;
+  color: #009CDE;
+  font-weight: bold;
+}
+
+.yllw-sign-up-form__link {
+  color: #009CDE;
+}
+
+.yllw-sign-up-form__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-float--right;
+  @extend .slds-m-top--medium;
+  @extend .slds-m-right--small;
+}
+
+.yllw-sign-up-form__text-label {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-left--xx-large;
+  @extend .slds-m-vertical--medium;
+  font-size: 1.08em;
+  font-weight: bold;
+}
+
+.yllw-sign-up-form__text--small {
+  @extend .slds-m-vertical--large;
+  @extend .slds-m-left--xx-large;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+  padding: 12px 35px 12px 14px;
+}
+
+.yllw-sign-up-form__element-control {
+  @extend .slds-form-element__control;
+}
+
+.yllw-sign-up-form__input {
+  @extend .slds-input;
+  @extend .slds-size--4-of-12;
+}
+
+.yllw-sign-up-form__select {
+  @extend .slds-select;
+  @extend .slds-size--4-of-12;
+}
+
+.yllw-sign-up-form__textarea {
+  @extend .slds-textarea;
+  @extend .slds-size--8-of-12;
+}
+
+.yllw-sign-up-form__label {
+  @extend .slds-p-top--x-small;
+  @extend .slds-form-element__label;
+}
+
+.yllw-sign-up-form__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  width: 20%;
+  padding: 0.2em 0.8em;
+  border-color: #06070f;
+  line-height: 25px;
+  border-radius: 20pt;
+  background-color: #1c2345;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #06070f;
+  }
+}
+
+.yllw-sign-up-form__button-destructive {
+  @extend .slds-button;
+
+  @extend .slds-button--brand;
+  font-size: 11.06px;
+  padding: 0.2em 0.8em;
+  border-color: #dc504b;
+  line-height: 21px;
+  border-radius: 20pt;
+  background-color: #dc504b;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color: #bd362f;
+  }
+}

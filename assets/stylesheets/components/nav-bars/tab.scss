@@ -1,0 +1,17 @@
+.yllw-tab__link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.yllw-tab__link--current {
+  display: block;
+  color: $grey-ultra-dark;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+  &:hover {
+    color: $grey-ultra-dark;
+    text-decoration: none;
+  }
+}

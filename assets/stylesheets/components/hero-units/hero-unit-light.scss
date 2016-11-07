@@ -1,0 +1,45 @@
+.yllw-hero-unit-light {
+}
+
+.yllw-hero-unit-light--about-us {
+  background-image: url('../images/aboutus.jpg');
+}
+
+.yllw-hero-unit-light--jobs {
+  background-image: url('../images/jobs_background.jpg');
+}
+
+.yllw-hero-unit-light--pricing {
+  background-image: url('../images/pricing_background.jpg');
+}
+
+.yllw-hero-unit-light__text--white-centered-uppercased {
+  @extend .slds-m-top--x-large;
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.yllw-hero-unit-light__heading--white-centered {
+  @extend .slds-text-heading--large;
+  color: white;
+  @extend .slds-text-align--center;
+}
+
+.yllw-hero-unit-light__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--small;
+  width: 100%;
+  background-color:  orange;
+  border-color:  orange;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color:  orange;
+  }
+  border-radius: 20pt;
+  width: 100%;
+}

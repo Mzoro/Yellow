@@ -1,0 +1,14 @@
+
+.yllw-privacy-fine-print {
+  width: 100%;
+}
+
+.yllw-privacy-fine-print__heading {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-vertical--small;
+  font-weight: bold;
+}
+
+.yllw-privacy-fine-print__text {
+  @extend .slds-text-body--regular;
+}

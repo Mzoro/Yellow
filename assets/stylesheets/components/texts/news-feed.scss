@@ -1,0 +1,31 @@
+
+.yllw-news-feed {
+
+}
+
+.yllw-news-feed__link-header {
+  @extend .slds-text-heading--large;
+}
+
+.yllw-news-feed__post-info {
+  @extend .slds-text-body--regular;
+  color: $grey-mid;
+  text-transform: uppercase;
+}
+
+.yllw-news-feed__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-news-feed__image {
+  width: 100%;
+}
+
+.yllw-news-feed__icon-container {
+  @extend .slds-icon__container;
+}
+
+.yllw-news-feed__icon {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+}

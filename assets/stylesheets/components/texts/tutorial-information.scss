@@ -1,0 +1,50 @@
+.yllw-tutorial-information {
+
+}
+
+.yllw-tutorial-information__heading {
+  @extend .slds-text-heading--large;
+  font-weight: bold;
+  color: $blue;
+}
+
+.yllw-tutorial-information__image {
+  @extend .slds-m-vertical--medium;
+}
+
+.yllw-tutorial-information__link {
+  text-transform: uppercase;
+  @extend .slds-text-heading--small;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.yllw-tutorial-information__list--ordered {
+  @extend .slds-list--ordered;
+  @extend .slds-m-vertical--small;
+}
+
+.yllw-tutorial-information__list--dotted {
+  @extend .slds-list--dotted;
+  @extend .slds-m-vertical--small;
+}
+
+.yllw-tutorial-information__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+}
+
+.yllw-tutorial-information__text--bold-uppercase {
+  @extend .slds-text-heading--small;
+  text-transform: uppercase;
+  color: $blue-ultra-dark;
+  font-weight: bold;
+  @extend .slds-m-top--large;
+}
+
+.yllw-tutorial-information__row {
+  @extend .slds-col;
+  @extend .slds-m-vertical--medium;
+  @extend .slds-text-body--regular;
+}

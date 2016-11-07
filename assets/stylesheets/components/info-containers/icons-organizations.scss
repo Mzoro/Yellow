@@ -1,0 +1,28 @@
+
+.yllw-organizations {
+  @extend .slds-grid--align-center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.yllw-organizations__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+}
+
+.yllw-organizations__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-organizations__icons-container {
+  @extend .slds-icon__container;
+  @extend .slds-icon-standard-account;
+  @extend .slds-m-vertical--large;
+}
+
+.yllw-organizations__icons {
+  @extend .slds-icon;
+  @extend .slds-icon--large;
+}

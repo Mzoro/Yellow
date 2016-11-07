@@ -1,0 +1,205 @@
+
+.yllw-hero-unit {
+  background-image: url('../images/bokeh.jpg');
+  background-position: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.yllw-hero-unit--side-image-primary {
+  background-image: url('../images/side_image.jpeg');
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.yllw-hero-unit--side-image-secondary {
+  background-image: url('../images/side_image_second.png');
+  background-position: center;
+  padding-top: 85px;
+  padding-bottom: 99px;
+}
+
+.yllw-hero-unit--feedback {
+  background-image: url('../images/feedback.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 543px;
+  padding-top: 155px;
+  padding-bottom: 255px;
+}
+
+// .yllw-hero-unit--features {
+//   background-image: url('../images/features_background.jpeg');
+// }
+
+.yllw-hero-unit--top-image {
+  background:  $blue;
+}
+
+.yllw-hero-unit--with-icons {
+  background:  $grey;
+}
+
+// .yllw-hero-unit--side-gif {
+//   background-image: url('');
+// }
+//
+// .yllw-hero-unit--side-image-with-picture {
+//   background-image: url('');
+// }
+
+.yllw-hero-unit--recurring_contribution {
+  background-color:  $grey;
+}
+
+// .yllw-hero-unit--three-coloms {
+//   background-image: url('');
+// }
+
+.yllw-hero-unit__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--small;
+  width: 100%;
+  background-color:  orange;
+  border-color:  orange;
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+    background-color:  orange;
+  }
+  border-radius: 20pt;
+  width: 100%;
+}
+
+.yllw-hero-unit__button--express-line {
+  @extend .slds-button;
+  @extend .slds-button--inverse;
+  @extend .slds-m-vertical--medium;
+  margin-top: 2.5em;
+}
+
+.yllw-hero-unit__heading--large {
+  @extend .slds-text-heading--large;
+}
+
+.yllw-hero-unit__heading--large-centered {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-hero-unit__heading--small {
+  @extend .slds-text-heading--small;
+}
+
+.yllw-hero-unit__heading--white {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  color: white;
+}
+
+.yllw-hero-unit__heading--white-small {
+  color: white;
+  @extend .slds-text-heading--small;
+}
+
+.yllw-hero-unit__heading--white-centered {
+  @extend .slds-text-heading--large;
+  color: white;
+  @extend .slds-text-align--center;
+}
+
+.yllw-hero-unit__icon--large {
+  @extend .slds-icon;
+  @extend .slds-icon--large;
+}
+
+.yllw-hero-unit__icon {
+  @extend .slds-icon;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-hero-unit__icon-container {
+  @extend .slds-icon__container;
+  @extend .slds-icon-standard-account;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-hero-unit__line {
+  width: 7em;
+  margin-top: 0em;
+}
+
+.yllw-hero-unit__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-hero-unit__text--centered {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center
+}
+
+.yllw-hero-unit__text--grey {
+  @extend .slds-m-top--medium;
+  @extend .slds-text-body--regular;
+  color:  $grey;
+}
+
+.yllw-hero-unit__text--uppercased {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  text-transform: uppercase;
+}
+
+.yllw-hero-unit__text--uppercased-centered {
+  @extend .slds-text-body--regular;
+  text-transform: uppercase;
+  @extend .slds-text-align--center;
+}
+
+.yllw-hero-unit__text--white {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--xx-large;
+  color: white;
+}
+
+.yllw-hero-unit__text--white-around-indent {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-around--small;
+  color: white;
+}
+
+.yllw-hero-unit__text--white-centered {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: white;
+}
+
+.yllw-hero-unit__text--white-centered-uppercased {
+  @extend .slds-m-top--x-large;
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.yllw-hero-unit__text--white-uppercased {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  color: white;
+  text-transform: uppercase;
+}
+
+.yllw-hero-unit__quote {
+  @extend .slds-popover;
+  @extend .slds-nubbin--bottom-left;
+  @extend .slds-m-bottom--medium;
+  max-width: none;
+  border-radius: 5pt;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.85em;
+  color: white;
+  width: 100%;
+}

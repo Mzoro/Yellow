@@ -1,0 +1,12 @@
+.yllw-my-contributions-social-list {
+  @extend .slds-m-left--small;
+}
+
+.yllw-my-contributions-social-list__image {
+  @extend .slds-icon--small;
+  @extend .slds-icon-text-default;
+}
+
+.yllw-my-contributions-social-list__item {
+  @extend .slds-m-bottom--small;
+}

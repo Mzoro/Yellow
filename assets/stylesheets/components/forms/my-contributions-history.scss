@@ -1,0 +1,31 @@
+
+.yllw-my-contributions-history {
+  @extend .slds-m-bottom--large;
+}
+
+.yllw-my-contributions-history__element-control {
+  @extend .slds-form-element__control;
+}
+
+.yllw-my-contributions-history__form-horizontal {
+  @extend .slds-form--horizontal;
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-my-contributions-history__heading {
+  @extend .slds-text-heading--large;
+  color: $blue;
+}
+
+.yllw-my-contributions-history__select {
+  @extend .slds-select;
+}
+
+.yllw-my-contributions-history__select-container {
+  @extend .slds-select_container;
+  @extend .slds-size--1-of-4;
+}
+
+.yllw-my-contributions-history__text {
+  @extend .slds-text-body--regular;
+}

@@ -1,0 +1,11 @@
+
+.yllw-candidate-profile-table {
+}
+
+.yllw-candidate-profile-table__heading {
+  @extend .slds-m-top--xx-large;
+  @extend .slds-m-bottom--medium;
+  @extend .slds-text-heading--medium;
+  color: $blue;
+  font-weight: bold;
+}

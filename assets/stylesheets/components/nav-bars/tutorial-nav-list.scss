@@ -1,0 +1,23 @@
+.yllw-tutorial-nav-list {
+
+}
+
+.yllw-tutorial-nav-list__category-title {
+  @extend .slds-text-heading--small;
+  text-transform: uppercase;
+  color: $blue-ultra-dark;
+  font-weight: bold;
+  @extend .slds-m-top--large;
+}
+
+.yllw-tutorial-nav-list__dotted-list {
+  @extend .slds-list--dotted;
+  @extend .slds-m-top--medium;
+}
+
+.yllw-tutorial-nav-list__link {
+  &:hover {
+    color: $blue-ultra-dark;
+    text-decoration: none;
+  }
+}

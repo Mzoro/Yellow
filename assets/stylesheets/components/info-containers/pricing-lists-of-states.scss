@@ -1,0 +1,42 @@
+.yllw-pricing-lists-of-states__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+  @extend .slds-m-vertical--medium;
+  color: $blue-ultra-dark;
+}
+
+.yllw-pricing-lists-of-states__heading--medium {
+  @extend .slds-text-heading--medium;
+  @extend .slds-text-align--center;
+  color: $blue-ultra-dark;
+}
+
+.yllw-pricing-lists-of-states__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  @extend .slds-m-vertical--small;
+}
+
+.yllw-pricing-lists-of-states__text--bold-uppercase {
+  @extend .slds-m-vertical--x-small;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yllw-pricing-lists-of-states__text--grey {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  color: $grey-mid;
+}
+
+.yllw-pricing-lists-of-states__text--grey-bold {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  font-weight: bold;
+  color: $grey-mid;
+}
+
+.yllw-pricing-lists-of-states__text--grey-small {
+  @extend .slds-text-body--small;
+  color: $grey-mid;
+}

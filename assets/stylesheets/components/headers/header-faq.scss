@@ -1,0 +1,19 @@
+
+.yllw-faq-header {
+  background-color: $blue-light;
+}
+
+.yllw-faq-header__logo {
+  @extend .slds-text-heading--large;
+  color: white;
+}
+
+.yllw-faq-header__links-bar {
+  @extend .slds-m-top--medium;
+  @extend .slds-text-heading--small;
+}
+
+.yllw-faq-header__link--white {
+  @extend .slds-text-heading--small;
+  color: white;
+}

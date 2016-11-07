@@ -1,0 +1,53 @@
+
+.yllw-fullscreen-icons-info {
+  @extend .slds-m-top--medium;
+  padding-top: 80px;
+  padding-bottom: 90px;
+  background-color: $blue;
+}
+
+.yllw-fullscreen-icons-info__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: white;
+}
+
+.yllw-fullscreen-icons-info__container {
+  @extend .slds-media__figure;
+  background-color: #0189d1;
+  margin-top: 3em;
+  margin-right: 2em;
+  width: 40%;
+  border-radius: 5pt;
+}
+
+.yllw-fullscreen-icons-info__icon {
+
+}
+
+.yllw-fullscreen-icons-info__icon-description {
+  @extend .slds-text-body--regular;
+  @extend .slds-media__body;
+  color: white;
+}
+
+.yllw-fullscreen-icons-info__heading--large {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--large;
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+.yllw-fullscreen-icons-info__heading--medium {
+  @extend .slds-text-heading--small;
+  color: white;
+}
+
+.yllw-fullscreen-icons-info__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--medium;
+  border-radius: 20pt;
+  width: 200px;
+  margin-top: 3em;
+}

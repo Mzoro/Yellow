@@ -1,0 +1,19 @@
+
+.yllw-blog-header {
+  @extend .slds-m-around--medium;
+}
+
+.yllw-blog-header__logo {
+  @extend .slds-badge;
+  @extend .slds-text-heading--large;
+}
+
+.yllw-blog-header__links-bar {
+  @extend .slds-m-top--medium;
+  @extend .slds-text-heading--small;
+}
+
+.yllw-blog-header__icon-social {
+  @extend .slds-input__icon;
+  @extend .slds-icon-text-default;
+}

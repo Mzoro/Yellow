@@ -1,0 +1,14 @@
+.yllw-nav-bar-under-hero-unit {
+  @extend .slds-m-top--medium;
+}
+
+.yllw-nav-bar-under-hero-unit__link {
+  text-transform: uppercase;
+  color: $grey-mid;
+  &:hover,
+  &:focus,
+  &:active {
+    color: orange;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,46 @@
+
+.yllw-contribute-candidate {
+}
+
+.yllw-contribute-candidate-form {
+  background-color: $white-milk;
+}
+
+.yllw-contribute-candidate-form__heading {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-left--small;
+  @extend .slds-m-vertical--medium;
+  color: $blue;
+  font-weight: normal;
+}
+
+.yllw-contribute-candidate__heading--medium {
+  @extend .slds-text-heading--medium;
+  @extend .slds-m-vertical--medium;
+  color: $blue;
+  font-weight: normal;
+}
+
+.yllw-contribute-candidate-form__text {
+  @extend .slds-text-heading--small;
+  @extend .slds-m-left--small;
+}
+
+.yllw-contribute-candidate__text--small {
+  @extend .slds-text-heading--small;
+  @extend .slds-text-body--small;
+  font-weight: normal;
+}
+
+.yllw-contribute-candidate__image {
+  @extend .slds-m-bottom--medium;
+}
+
+.yllw-contribute-candidate-form__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+  @extend .slds-m-vertical--small;
+  width: 85%;
+  border-radius: 20pt;
+
+}

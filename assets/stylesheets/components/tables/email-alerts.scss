@@ -1,0 +1,50 @@
+
+.yllw-email-alerts {
+
+}
+
+.yllw-email-alerts__button {
+  @extend .slds-button;
+  @extend .slds-button--icon-bare;
+}
+
+.yllw-email-alerts__box {
+  @extend .slds-m-vertical--small;
+  @extend .slds-p-around--x-small;
+  background-color: $blue-ultra-light;
+  color: $blue-midnight;
+}
+
+.yllw-email-alerts__icon {
+  @extend .slds-button__icon;
+  @extend .slds-button__icon--small;
+}
+
+.yllw-email-alerts__heading {
+  @extend .slds-text-heading--large;
+  font-weight: bold;
+  color: $blue;
+}
+
+.yllw-email-alerts__heading--label {
+  @extend .slds-text-heading--label;
+  border-bottom: 1px solid #d8dde6;
+}
+
+.yllw-email-alerts__table {
+  @extend .slds-table;
+  @extend .slds-m-vertical--large;
+}
+
+.yllw-email-alerts__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-email-alerts__truncate {
+  @extend .slds-truncate;
+  font-weight: bold;
+}
+
+.yllw-email-alerts__sort {
+  @extend .slds-is-sortable;
+}

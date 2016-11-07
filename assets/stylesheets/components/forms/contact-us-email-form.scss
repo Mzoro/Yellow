@@ -1,0 +1,29 @@
+
+.yllw-contact-us-email-form {
+}
+
+.yllw-contact-us-email-form__button {
+  @extend .slds-button;
+  @extend .slds-button--brand;
+}
+
+.yllw-contact-us-email-form__element-control {
+  @extend .slds-form-element__control;
+}
+
+.yllw-contact-us-email-form__input {
+  @extend .slds-input;
+}
+
+.yllw-contact-us-email-form__heading {
+  @extend .slds-text-heading--large;
+}
+
+.yllw-contact-us-email-form__text {
+  @extend .slds-text-body--regular;
+}
+
+.yllw-contact-us-email-form__textarea {
+  @extend .slds-textarea;
+  @extend .slds-size--9-of-12;
+}

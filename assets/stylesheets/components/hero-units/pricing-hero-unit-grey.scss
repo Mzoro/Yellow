@@ -1,0 +1,17 @@
+.yllw-pricing-hero-unit-grey {
+  background-color: $grey;
+}
+
+.yllw-pricing-hero-unit-grey__heading {
+  @extend .slds-m-top--xx-large;
+	@extend .slds-m-bottom--x-large;
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-pricing-hero-unit-grey__text {
+  @extend .slds-m-bottom--x-large;
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  color: $grey-warm;
+}

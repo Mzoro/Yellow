@@ -1,0 +1,22 @@
+
+.yllw-text-article {
+
+}
+
+.yllw-text-article__heading {
+  @extend .slds-text-heading--medium;
+  @extend .slds-text-align--center;
+  @extend .slds-m-bottom--small;
+}
+
+.yllw-text-article__heading--small {
+  @extend .slds-text-heading--small;
+  @extend .slds-text-align--center;
+  @extend .slds-m-bottom--small;
+}
+
+.yllw-text-article__text {
+  @extend .slds-text-body--regular;
+  @extend .slds-text-align--center;
+  @extend .slds-m-bottom--small;
+}

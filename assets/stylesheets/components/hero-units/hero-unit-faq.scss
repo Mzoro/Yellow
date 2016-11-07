@@ -1,0 +1,31 @@
+.yllw-faq-hero--blue {
+  background: $blue-light;
+}
+
+.yllw-faq-hero--orange {
+  background: $orange-mid;
+}
+
+.yllw-faq-hero__heading {
+  @extend .slds-text-align--center;
+  @extend .slds-text-heading--large;
+  @extend .slds-m-top--xx-large;
+  @extend .slds-m-bottom--x-large;
+  color: white;
+  display: block;
+}
+
+.yllw-faq-hero__text {
+  @extend .slds-text-align--center;
+  @extend .slds-text-body--regular;
+  @extend .slds-m-bottom--xx-large;
+  color: white;
+  display: block;
+}
+
+.yllw-faq-hero__button {
+  @extend .slds-m-bottom--xx-large;
+  @extend .slds-text-align--center;
+  @extend .slds-button--inverse;
+  color: white;
+}

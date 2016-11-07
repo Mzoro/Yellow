@@ -1,0 +1,22 @@
+.yllw-pricing-two-columns-text {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--x-small;
+}
+
+.yllw-pricing-two-columns-text--bold-uppercase {
+  @extend .slds-text-align--center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yllw-pricing-two-columns-text__heading {
+  @extend .slds-text-heading--large;
+  @extend .slds-text-align--center;
+}
+
+.yllw-pricing-two-columns-text__heading--medium {
+  @extend .slds-text-heading--medium;
+  @extend .slds-text-align--center;
+  @extend .slds-m-top--large;
+  @extend .slds-m-bottom--xx-large;
+}

@@ -1,0 +1,27 @@
+
+.yllw-express-hero-unit-with-picture {
+  background-image: url('../images/background-callout.jpg');
+}
+
+.yllw-express-hero-unit-with-picture__text--uppercased {
+  @extend .slds-text-body--regular;
+  @extend .slds-m-vertical--small;
+  text-transform: uppercase;
+  color: white;
+}
+
+.yllw-express-hero-unit-with-picture__heading--large {
+  @extend .slds-text-heading--large;
+  @extend .slds-m-vertical--small;
+  color: white;
+}
+
+.yllw-express-hero-unit-with-picture__heading--small {
+  @extend .slds-text-heading--small;
+  color: white;
+}
+
+.yllw-express-hero-unit-with-picture__text {
+  @extend .slds-text-body--regular;
+  color: white;
+}

@@ -1,0 +1,43 @@
+
+.yllw-faq-footer {
+  background-color: $grey-ultra-dark;
+}
+
+.yllw-faq-footer__search-pane {
+  @extend .slds-form-element__control;
+  @extend .slds-input-has-icon;
+  @extend .slds-input-has-icon--left;
+  @extend .slds-m-top--small;
+  @extend .slds-m-bottom--large;
+  fill: white;
+}
+
+.yllw-faq-footer__search-input {
+  @extend .slds-input;
+  @extend .slds-text-align--left;
+  background: $grey-ultra-dark;
+  border-radius: 0px;
+}
+
+.yllw-faq-footer__search-icon {
+  @extend .slds-input-has-icon;
+  @extend .slds-input__icon;
+  fill: white;
+}
+
+.yllw-faq-footer__search-pane .yllw-faq-footer__search-icon {
+  fill: white;
+}
+
+.yllw-faq-footer__heading {
+  @extend .slds-p-top--large;
+  @extend .slds-p-bottom--large;
+  @extend .slds-text-align--center;
+  color: white;
+}
+
+.yllw-faq-footer__text {
+  @extend .slds-text-align--center;
+  @extend .slds-p-bottom--large;
+  color: white;
+}
